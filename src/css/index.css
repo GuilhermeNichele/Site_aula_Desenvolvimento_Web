@@ -7,15 +7,18 @@ body {
 }
 
 header {
-	background-color: #f8f8f8;
+  
+	background-color: #fd9af5;
 	border-bottom: 1px solid #ccc;
 	padding: 10px;
+  content: block;
 }
 
 /* Alterações no CSS para melhorar o menu e adicionar responsividade */
 
 /* Estilos do menu */
 nav {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,6 +145,7 @@ nav {
   
 
 main{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,5 +153,24 @@ main{
     flex-wrap: wrap;
     height: 100vh;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #e2e2e2;
+    content: block;
+}
+
+main .main-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+main .main-list img{
+  
+  
+  width: 200px;
+  padding: 40px;
+
 }
